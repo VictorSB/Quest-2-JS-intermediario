@@ -1,0 +1,103 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../image/bg-repeat.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .infos {
+    padding-right: 73px;
+}
+
+.container h1 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    width: 287px;
+    height: 46px;
+    margin-bottom: 11px;
+}
+
+.container p {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 300px;
+    height: 54px;
+}
+
+.container .formulario {
+    background-color: #ffffff;
+    width: 340px;
+    height: 378px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formulario .name,
+.email,
+.number {
+    padding: 10px;
+    width: 298px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.formulario .msg {
+    padding: 10px;
+    width: 298px;
+    height: 100px;
+    border-radius: 5px;
+    resize: none;
+}
+
+.formulario .span {
+    color: #000000;
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+a.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 298px;
+    height: 41px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    background-color: #3ccc87;
+    color: #ffffff;
+}
+
+.bordas-vermelhas {
+    border: 1px solid #ff0000;
+}
+
+.bordas-verdes {
+    border: 1px solid #00ff00;
+}
+
+.alerta {
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.trocar-cor {
+    color: #f52e2e;
+}
